@@ -18,3 +18,12 @@ body {
   border-radius: 0.5rem;
   margin: 1rem 0;
 }
+
+.price {
+  width: 200px;
+  height:200px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 2rem;
+  color: white;
+}
