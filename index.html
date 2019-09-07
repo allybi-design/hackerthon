@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="col-6 offset-sm-3">
+        <h1 class="reg">AB123 ABC</h1>
+      </div>
+
+      <div class="car-details">
+        <div class="row">
+          <div class="col-6">
+            <h2>
+              Model: Ford Fiesta 1.3
+            </h2>
+            <h2>
+              Color: Blue
+            </h2>
+            <h2>
+              First Reg: 2016
+            </h2>
+          </div>
+          <div class="col-6">
+            <h2>
+              Start Location: Manchester
+            </h2>
+            <h2>
+              End Location: London:
+            </h2>
+            <h2>
+              Driver: Mr A. User
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="form-group bootstrap-timepicker">
+              <label class="control-label">Start Time</label>
+              <input
+                id="start"
+                name="start"
+                ng-model="start"
+                type="text"
+                required="required"
+                class="form-control start"
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="form-group bootstrap-timepicker">
+              <label class="control-label">End Time</label>
+              <input
+                id="end"
+                name="end"
+                ng-model="end"
+                type="text"
+                required="required"
+                class="form-control end"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/timepicker/1.3.5/jquery.timepicker.min.js"></script>
+</html>
